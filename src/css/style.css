@@ -1,0 +1,68 @@
+
+:root{
+    --cinza: #757575;
+    --azul: #074ca1;
+    --preto: #212121;
+}
+
+.icon{
+    width: 30px;
+}
+
+.logo{
+    width: 120px;
+}
+
+.top-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu{
+    display: none;
+    height: 0;
+}
+#menu.active{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#menu ul, #menu li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+#menu li{
+    border-bottom: 1px solid var(--azul);
+}
+
+#menu:first-child{
+    border-top: 1px solid var(--azul);
+    margin-top:2%;
+}
+
+.group-icons-social-media-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.group-icons-social-media-mobile img{
+    padding: 14px;
+    width: 60px;
+}
+
+.div-nav{
+    padding: 0 2% 0 0;
+}
+
+#nav{
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
