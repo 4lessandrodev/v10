@@ -5,8 +5,22 @@
     --preto: #212121;
 }
 
+p{
+    font-size: 18px;
+}
+
+h1{
+    text-transform: uppercase;
+    margin: 7% 0;
+    border-bottom: 3px solid var(--azul);
+    width: 70%;
+}
+
 .icon{
     width: 30px;
+}
+.icon-medium{
+    width: 20px;
 }
 
 .logo{
@@ -27,6 +41,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    background-color: white;
 }
 
 #menu ul, #menu li{
@@ -39,11 +54,12 @@
 
 #menu li{
     border-bottom: 1px solid var(--azul);
+    font-weight: 700;
 }
 
-#menu:first-child{
+#menu li:first-child{
     border-top: 1px solid var(--azul);
-    margin-top:2%;
+    margin-top:5%;
 }
 
 .group-icons-social-media-mobile{
@@ -65,4 +81,28 @@
     position: fixed;
     z-index: 1;
     background-color: white;
+    top: 0px;
+}
+
+.banner{
+    width: 100%;
+    background-color: var(--cinza);
+    height: 90vh;
+}
+
+.background{
+    width: 70%;
+    position: relative;
+    right: 10%;
+    background-color: var(--azul);
+    height: 50vh;
+}
+
+.background .image{
+    width: 150%;
+    position: relative;
+    left: 20%;
+    height: 40vh;
+    background-color: var(--cinza);
+    top: 5vh;
 }

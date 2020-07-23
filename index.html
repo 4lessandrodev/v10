@@ -19,7 +19,7 @@
                 <a class="navbar-brand" href="#">
                     <img src="./src/images/logos/logo.png" class="d-inline-block align-top logo" alt="logo" loading="lazy">
                 </a>
-                <div class="hamburguer-menu">
+                <div class="hamburguer-menu" id="btn-open-mobile-menu">
                     <image class="icon" xlink:href="" src="./src/images/icons/bars-solid.svg"></image> 
                 </div>
             </div>
@@ -45,7 +45,15 @@
             </div>
         </div>
         <nav class="navbar navbar-light container-fluid div-nav" id="nav">
-            <div class="navbar container-fluid div-nav active" id="menu">
+            <div class="container-fluid top-mobile" id="header-top-mobile" hidden>
+                <a class="navbar-brand">
+                    <img src="./src/images/logos/logo.png" class="d-inline-block align-top logo" alt="logo" loading="lazy">
+                </a>
+                <div class="hamburguer-menu" id="btn-close-mobile-menu">
+                    <image class="icon-medium" xlink:href="" src="./src/images/icons/times-solid.svg"></image> 
+                </div>
+            </div>
+            <div class="navbar container-fluid div-nav" id="menu">
                 <ul>
                     <li>
                         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
@@ -66,11 +74,23 @@
                 </div>
             </div>
         </nav>
+        <div class="banner" id="banner"></div>
     </header>
     <main class="container-fluid">
-        <section id="about">
-            <h1>Sobre nós</h1>
+        <section class="container">
+            <h1 class="titulo">Sobre nós</h1>
+            <article>
+                <p>Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Atirei o pau no gatis, per gatis num morreus. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+                <p>Si num tem leite então bota uma pinga aí cumpadi!
+                    Diuretics paradis num copo é motivis de denguis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Casamentiss faiz malandris se pirulitá.
+                </p>
+                <div class="background">
+                    <div class="image">
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
+    <script src="./src/js/navbar.js"></script>
 </body>
 </html>
