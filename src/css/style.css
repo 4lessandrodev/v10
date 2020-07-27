@@ -3,6 +3,8 @@
     --cinza: #757575;
     --azul: #074ca1;
     --preto: #212121;
+    --branco:#ffffff;
+    --amarelo:#f3dc0b;
 }
 
 p{
@@ -90,7 +92,7 @@ h1{
     height: 90vh;
 }
 
-.background{
+.about__background{
     width: 70%;
     position: relative;
     right: 10%;
@@ -98,11 +100,61 @@ h1{
     height: 50vh;
 }
 
-.background .image{
-    width: 150%;
+.about__background__image{
+    width: 142%;
     position: relative;
     left: 20%;
     height: 40vh;
     background-color: var(--cinza);
     top: 5vh;
 }
+
+.seriveces__image__service{
+    width: 100%;
+    background-color: var(--cinza);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 40vh;
+}
+
+.title{
+    margin-top: 7vh;
+}
+
+.subtitle{
+    margin: 3vh 0;
+}
+
+.budget{
+    background-color: var(--azul);
+}
+
+.budget__link{
+    color: var(--branco);
+    padding: 5%;
+}
+.budget__mark{
+    color: var(--azul);
+    background-color: var(--amarelo);
+    border-radius: 7px;
+    height: 2;
+}
+
+.color_white{
+    color: var(--branco);
+}
+
+.projects__header{
+    background-color: var(--cinza);
+    width: 100%;
+    min-height: 60vh;
+    position: relative;
+    bottom: 53px;
+}
+
+.projects__header .title{
+    padding-top: 3rem;
+    border-color: var(--branco);
+}
+
