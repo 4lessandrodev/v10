@@ -187,3 +187,21 @@ h1{
 .contact input[type='submit']{
     width: 100%;
 }
+
+.info{
+    color: var(--branco);
+    text-align: center;
+    letter-spacing: 1.2px;
+    padding: 4vh 0;
+}
+
+.info .title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+    padding:0;
+}
+
+.info a{
+color: var(--branco);
+}
