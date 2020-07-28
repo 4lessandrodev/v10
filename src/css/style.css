@@ -132,7 +132,7 @@ h1{
 
 .budget__link{
     color: var(--branco);
-    padding: 5%;
+    padding: 12% 5%;
 }
 .budget__mark{
     color: var(--azul);
@@ -158,3 +158,32 @@ h1{
     border-color: var(--branco);
 }
 
+.divider{
+    width: 100%;
+    height: 7vh;
+    background-color: var(--azul);
+    margin-top: 5vh;
+}
+
+.carousel-item img {
+    min-width: 100%;
+    height: 32vh;
+}
+
+.contact{
+    background-color: var(--azul);
+}
+
+.contact .title{
+    color: var(--branco);
+    border-color: var(--branco);
+    padding-top: 4vh;
+}
+
+.contact input, .contact textarea{
+    border-radius: 14px;
+    min-height: 3rem;
+}
+.contact input[type='submit']{
+    width: 100%;
+}
