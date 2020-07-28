@@ -49,7 +49,7 @@ p{
 
 #menu li{
     border-bottom: 1px solid var(--azul);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #menu li:first-child{
@@ -192,7 +192,7 @@ p{
     color: var(--branco);
     text-align: center;
     letter-spacing: 1.2px;
-    padding: 4vh 0;
+    padding: 7vh 0;
 }
 
 .info .title{
@@ -214,13 +214,26 @@ color: var(--branco);
 
 .map{
     width: 100%;
+    border-bottom: 14px ridge var(--azul);
 }
 
 .main__footer{
     text-align: center;
-    min-height: 14vh;
 }
 
 .main__footer img{
+    padding: 3vh 0;
     width: 140px;
+}
+
+.main__footer__icons .icon{
+    width: 40px;
+    padding: 0 5px 0;
+    margin-bottom: 3vh;
+}
+
+
+#logos .carousel-inner .carousel-item{
+    border: 50px solid transparent;
+    border-top: 0;
 }
