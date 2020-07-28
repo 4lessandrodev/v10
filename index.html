@@ -118,11 +118,38 @@
             <header class="container projects__header">
                 <h1 class="title color_white">Projetos</h1>
             </header>
-            <article class="projects__article">
-
+            <article class="projects__article container">
+                <div id="sliders" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://artia.com/wp-content/uploads/2015/07/obras-598x390.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://www.lonax.com.br/wp-content/uploads/2017/10/132800-como-um-mestre-de-obras-pode-se-destacar-no-mercado-900x.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://mapa-da-obra-producao.s3.amazonaws.com/wp-content/uploads/2018/06/5-equipamentos-de-obras-que-vao-aumentar-a-produtividade-da-sua-equipe.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </div>
             </article>
         </section>
     </main>
     <script src="./src/js/navbar.js"></script>
+    <script src="./src/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./src/js/bootstrap.min.js"></script>
 </body>
 </html>
