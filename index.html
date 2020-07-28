@@ -78,7 +78,7 @@
     </header>
     <main>
         <section class="container about">
-            <header>
+            <header class="header">
                 <h1 class="title">Sobre nós</h1>
             </header>
             <article>
@@ -97,14 +97,13 @@
             </article>
         </section>
         <section class="seriveces">
-            <header class="container">
-                <h1 class="title">Serviços</h1>
-            </header>
             <div class="seriveces__image__service">
                 <figure>
-                    
                 </figure>
             </div>
+            <header class="container header">
+                <h1 class="title">Serviços</h1>
+            </header>
             <article class="container">
                 <h2 class="subtitle">Lorem ipsum dolor</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta sequi deserunt quo sed enim mollitia, maiores facere unde, beatae, minus alias ducimus itaque animi nostrum suscipit cupiditate consequatur fugit rerum.</p>
@@ -115,7 +114,7 @@
             </article>
         </section>
         <section class="projects">
-            <header class="container projects__header">
+            <header class="container projects__header header">
                 <h1 class="title color_white">Projetos</h1>
             </header>
             <article class="projects__article container">
@@ -148,8 +147,8 @@
             </article>
         </section>
         <div class="divider"></div>
-        <section class="container">
-            <header>
+        <section class="container clients">
+            <header class="header">
                 <h1 class="title">Clientes</h1>
             </header>
             <div id="logos" class="carousel slide" data-ride="carousel">
@@ -175,7 +174,7 @@
             </div>
         </section>
         <section class="contact container">
-            <header>
+            <header class="header">
                 <h1 class="title">Contato</h1>
             </header>
             <div>
@@ -197,27 +196,42 @@
                         <input type="text" class="form-control" id="subject" placeholder="Assunto">
                     </div>
                     <div class="form-group">
-                        <label for="message" hidden>Seua mensagem</label>
+                        <label for="message" hidden>Sua mensagem</label>
                         <textarea class="form-control" id="message" rows="4" placeholder="Mensagem"></textarea>
                     </div>
-                    <input type="submit" class="btn btn-light"></input>
+                    <input type="submit" class="btn btn-light">Enviar</input>
                 </form>
             </div>
             <div class="info">
                 <div>
                     <div>
-                        <h5 class="title">Telefone:</h5>
+                        <h5 class="info__title">Telefone:</h5>
                         <a href="tel:000000000">(00) 00000-0000</a> - 
                         <a href="tel:000000000">(00) 00000-0000</a>
                     </div>
                     <div>
-                        <h5 class="title">Email</h5>
+                        <h5 class="info__title">Email</h5>
                         <a href="mailto:mail@mail.com">v10@v10eng.com.br</a>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="location">
+            <article class="map embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8065143604817!2d-47.92954828434717!3d-1.2903837047844136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a5afec56f66215%3A0xfcc38580830f6430!2sV10%20Engenharia!5e0!3m2!1spt-BR!2sbr!4v1595903159704!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </article>
+        </section>
     </main>
+    <footer class="main__footer">
+        <div>
+            <img src="./src/images/logos/logo.png" alt="logo">
+        </div>
+        <div>
+            <address>
+                <p>Todos os direitos reservados 2020</p>
+            </address>
+        </div>
+    </footer>
     <script src="./src/js/navbar.js"></script>
     <script src="./src/js/jquery-3.5.1.slim.min.js"></script>
     <script src="./src/js/bootstrap.min.js"></script>

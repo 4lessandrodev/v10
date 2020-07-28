@@ -11,13 +11,6 @@ p{
     font-size: 18px;
 }
 
-h1{
-    text-transform: uppercase;
-    margin: 7% 0;
-    border-bottom: 3px solid var(--azul);
-    width: 70%;
-}
-
 .icon{
     width: 30px;
 }
@@ -112,14 +105,20 @@ h1{
 .seriveces__image__service{
     width: 100%;
     background-color: var(--cinza);
-    margin: 0;
+    margin: 47px 0 0;
     padding: 0;
     position: relative;
     min-height: 40vh;
 }
 
 .title{
+    display: block;
     margin-top: 7vh;
+    text-transform: uppercase;
+    margin: 7% 0;
+    border-bottom: 3px solid var(--azul);
+    width: 60%;
+    text-align: center;
 }
 
 .subtitle{
@@ -150,7 +149,8 @@ h1{
     width: 100%;
     min-height: 60vh;
     position: relative;
-    bottom: 53px;
+    bottom: 3px;
+    margin-bottom: 40px;
 }
 
 .projects__header .title{
@@ -204,4 +204,23 @@ h1{
 
 .info a{
 color: var(--branco);
+}
+
+.header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.map{
+    width: 100%;
+}
+
+.main__footer{
+    text-align: center;
+    min-height: 14vh;
+}
+
+.main__footer img{
+    width: 140px;
 }
