@@ -7,8 +7,15 @@
     --amarelo:#f3dc0b;
 }
 
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 p{
-    font-size: 18px;
+    font-size: 1rem;
+    color: var(--cinza);
+    text-align: justify;
+    padding: 0 5%;
 }
 
 .icon{
@@ -113,16 +120,33 @@ p{
 
 .title{
     display: block;
-    margin-top: 7vh;
     text-transform: uppercase;
-    margin: 7% 0;
-    border-bottom: 3px solid var(--azul);
     width: 60%;
     text-align: center;
+    font-size: 1.6rem;
+    color: var(--cinza);
+    font-weight: 700;
+    letter-spacing: 12.5%;
+    margin-top: 7%;
+}
+.underline{
+    margin-top: 0;
+    margin-bottom: 7%;
+    border-bottom: 3px solid var(--azul);
+    width: 28%;
+}
+
+.underline_white{
+    margin-top: 0;
+    margin-bottom: 7%;
+    border-bottom: 3px solid var(--branco);
+    width: 28%;
 }
 
 .subtitle{
     margin: 3vh 0;
+    font-size: 1.3rem;
+    padding: 0 5%;
 }
 
 .budget{
@@ -130,14 +154,22 @@ p{
 }
 
 .budget__link{
+    display: flex;
     color: var(--branco);
-    padding: 12% 5%;
+    padding: 14% 5%;
+    width: 100%;
+    font-size: 1.5rem;
 }
 .budget__mark{
+    display: block;
     color: var(--azul);
     background-color: var(--amarelo);
     border-radius: 7px;
-    height: 2;
+    height: 2rem;
+    text-align: center;
+    width: 170px;
+    padding: 0;
+    margin: 0 5px;
 }
 
 .color_white{
@@ -154,7 +186,7 @@ p{
 }
 
 .projects__header .title{
-    padding-top: 3rem;
+    padding-top: 0;
     border-color: var(--branco);
 }
 
@@ -207,14 +239,21 @@ color: var(--branco);
 }
 
 .header{
-    text-align: center;
     display: flex;
+    text-align: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.projects__header{
+    justify-content: flex-start;
 }
 
 .map{
     width: 100%;
     border-bottom: 14px ridge var(--azul);
+    height: 50vh;
 }
 
 .main__footer{
@@ -236,4 +275,9 @@ color: var(--branco);
 #logos .carousel-inner .carousel-item{
     border: 50px solid transparent;
     border-top: 0;
+}
+
+.footer_address{
+display: flex;
+justify-content: center;
 }
