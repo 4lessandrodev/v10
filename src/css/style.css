@@ -90,6 +90,7 @@ p{
     width: 100%;
     background-color: var(--cinza);
     height: 90vh;
+    background-image: url('../images/banners/banner-mobile.png');
 }
 
 .about__background{
