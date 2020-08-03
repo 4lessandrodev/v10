@@ -119,6 +119,32 @@ p{
     min-height: 40vh;
 }
 
+.services{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    margin: 7% 0;
+    padding: 0 5%;
+}
+
+.services .icon{
+   width: 23px;
+}
+
+.services p{
+    margin-bottom: 0;
+ }
+
+.service{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
 .title{
     display: block;
     text-transform: uppercase;
