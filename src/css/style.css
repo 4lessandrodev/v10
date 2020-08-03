@@ -131,13 +131,13 @@ p{
 }
 
 .services .icon{
-   width: 14px;
+    width: 14px;
 }
 
 .services p{
     margin-bottom: 0;
     color: var(--azul);
- }
+}
 
 .service{
     list-style: none;
@@ -265,7 +265,7 @@ p{
 }
 
 .info a{
-color: var(--branco);
+    color: var(--branco);
 }
 
 .header{
@@ -308,22 +308,132 @@ color: var(--branco);
 }
 
 .footer_address{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 
 /* AQUI INICIA O CSS PARA DESKTOP */
 
 @media (min-width: 992px) { 
-
+    
+    p{
+        font-size: 1.2rem;
+        color: var(--cinza);
+        text-align: justify;
+        padding: 0 5%;
+    }
+    
     .banner{
         width: 100%;
         background-color: var(--cinza);
         height: 85vh;
-        background-image: url('../images/banners/banner-desktop-1366.png');
+        background-image: url('../images/banners/banner-desktop-1920.png');
         background-size: cover;
         background-position: top;
     }
+    
+    .about__article{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .about__article__text{
+        width: 50%;
+    }
+    
+    .about__article__background{
+        width: 40%;
+    }
+    
+    .about__background{
+        width: 70%;
+        position: relative;
+        right: 0%;
+        background-color: var(--azul);
+        height: 60vh;
+    }
+    
+    .about__background__image{
+        width: 142%;
+        position: relative;
+        left: 20%;
+        height: 40vh;
+        background-color: var(--cinza);
+        top: 17%;
+    }
+    
+    .seriveces__image__service{
+        width: 100%;
+        background-color: var(--cinza);
+        margin: 47px 0 0;
+        padding: 0;
+        position: relative;
+        min-height: 90vh;
+        background-image: url('../images/banners/service-background-desktop-1920.png');
+        background-size: cover;
+    }
+    .service {
+        list-style: none;
+        margin-top: 2%;
+        display: flex;
+        justify-items: center;
+        width: 30%;
+        padding: 14px;
+        flex-direction: column;
+        border-bottom: 3px ridge var(--azul);
+        border-radius: 15px;
+        max-height: 140px;
+        min-height: 140px;
+        box-shadow: 0px 3px 18px -1px rgba(0,0,0,0.33);
+    }
 
- }
+    .service .icon{
+        width: 100%;
+        border-bottom: 1px solid var(--cinza);
+        max-height: 120px;
+        margin-bottom: 2%;
+        /*content: url('https://images.template.net/wp-content/uploads/2014/10/Construction-Equipment-Icons.jpg');*/
+        padding-bottom: 2%;
+        display: none;
+    }
+    
+    .services{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        list-style: none;
+        margin: 4% 0;
+        padding: 0 5%;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .seriveces__article .subtitle{
+        margin: 0;
+    }
+    
+    .budget__link{
+        display: flex;
+        color: var(--branco);
+        padding: 5% 5%;
+        width: 100%;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+
+    .service:hover{
+        background-color: var(--azul);
+        cursor: pointer;
+    }
+
+    .service:hover p{
+        color: var(--branco);
+    }
+
+    .divider__clients{
+        display: none;
+    }
+
+}
