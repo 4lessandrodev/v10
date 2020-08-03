@@ -116,7 +116,9 @@ p{
     margin: 47px 0 0;
     padding: 0;
     position: relative;
-    min-height: 40vh;
+    min-height: 90vh;
+    background-image: url('../images/banners/service-background-mobile.png');
+    background-size: cover;
 }
 
 .services{
@@ -129,11 +131,12 @@ p{
 }
 
 .services .icon{
-   width: 23px;
+   width: 14px;
 }
 
 .services p{
     margin-bottom: 0;
+    color: var(--azul);
  }
 
 .service{
