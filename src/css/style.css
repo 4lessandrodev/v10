@@ -311,3 +311,19 @@ color: var(--branco);
 display: flex;
 justify-content: center;
 }
+
+
+/* AQUI INICIA O CSS PARA DESKTOP */
+
+@media (min-width: 992px) { 
+
+    .banner{
+        width: 100%;
+        background-color: var(--cinza);
+        height: 85vh;
+        background-image: url('../images/banners/banner-desktop-1366.png');
+        background-size: cover;
+        background-position: top;
+    }
+
+ }
