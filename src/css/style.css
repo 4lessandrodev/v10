@@ -388,12 +388,18 @@ p{
         box-shadow: 0px 3px 18px -1px rgba(0,0,0,0.33);
     }
 
+    
+
+    .service p {
+        text-align: initial;
+    }
+
     .service .icon{
         width: 100%;
         border-bottom: 1px solid var(--cinza);
         max-height: 120px;
         margin-bottom: 2%;
-        /*content: url('https://images.template.net/wp-content/uploads/2014/10/Construction-Equipment-Icons.jpg');*/
+        content: url('./../images/icons/engrenagem.png');
         padding-bottom: 2%;
         display: none;
     }
@@ -426,6 +432,10 @@ p{
     .service:hover{
         background-color: var(--azul);
         cursor: pointer;
+        background-image: url('./../images/icons/engrenagem.png');
+        background-size: 50px;
+        background-repeat: no-repeat;
+        background-position: right bottom;
     }
 
     .service:hover p{
