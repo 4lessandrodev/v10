@@ -446,4 +446,47 @@ p{
         display: none;
     }
 
+    .article__contact{
+        max-width: 40%;
+        position: relative;
+        right: 5%;
+    }
+
+    .article__map{
+        max-width: 40vw;
+        position: relative;
+        right:12%;
+    }
+
+    .map{
+        width: 50vw;
+        border-bottom: none;
+        height: 67%;
+        border-radius: 14px;
+    }
+
+    .contact .contact__form_and_map{
+        display: flex;
+    }
+
+    .info{
+        color: var(--branco);
+        text-align: center;
+        letter-spacing: 1.2px;
+        padding: 7vh 0;
+        width: 87vw;
+    }
+    .underline {
+        margin-top: 0px;
+        margin-bottom: 7%;
+        width: 10%;
+    }
+
+    .underline_white {
+        margin-top: 0;
+        margin-bottom: 7%;
+        border-bottom: 3px solid var(--branco);
+        width: 10%;
+    }
+
 }
