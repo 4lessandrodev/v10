@@ -102,16 +102,19 @@ p{
     position: relative;
     right: 10%;
     background-color: var(--azul);
-    height: 50vh;
+    height: 80vh;
 }
 
 .about__background__image{
     width: 142%;
     position: relative;
     left: 20%;
-    height: 40vh;
+    height: 70vh;
     background-color: var(--cinza);
     top: 5vh;
+    background-image: url('./../images/banners/engenheiros.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .seriveces__image__service{
@@ -437,16 +440,16 @@ p{
         position: relative;
         right: 0%;
         background-color: var(--azul);
-        height: 60vh;
+        height: 77vh;
     }
     
     .about__background__image{
         width: 142%;
         position: relative;
         left: 20%;
-        height: 40vh;
+        height: 60vh;
         background-color: var(--cinza);
-        top: 17%;
+        top: 12%;
     }
     
     .seriveces__image__service{
