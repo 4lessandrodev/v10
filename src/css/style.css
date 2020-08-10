@@ -117,7 +117,7 @@ p{
     background-repeat: no-repeat;
 }
 
-.seriveces__image__service{
+.services__image__service{
     width: 100%;
     background-color: var(--cinza);
     margin: 47px 0 0;
@@ -203,7 +203,7 @@ p{
     color: var(--branco);
     padding: 14% 5%;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .budget__mark{
     display: block;
@@ -455,7 +455,7 @@ p{
         top: 12%;
     }
     
-    .seriveces__image__service{
+    .services__image__service{
         width: 100%;
         background-color: var(--cinza);
         margin: 47px 0 0;
@@ -514,7 +514,7 @@ p{
         flex-wrap: wrap;
     }
     
-    .seriveces__article .subtitle{
+    .services__article .subtitle{
         margin: 0;
     }
     
