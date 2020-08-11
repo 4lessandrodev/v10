@@ -606,6 +606,19 @@ p{
     #logos-mobile{
         display: none;
     }
+
+    .projects__cards__article{
+        display: flex;
+        align-items: center;
+    }
+
+    .arrow__card{
+        padding: 0 2%;
+    }
+
+    .arrow__card:hover{
+        cursor: pointer;
+    }
     
     .card-logo{
         max-width: 13%;
