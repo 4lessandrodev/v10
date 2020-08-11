@@ -396,10 +396,11 @@ p{
     
     #menu ul{
         display: flex;
-        width: 100%;
+        width: 80%;
         justify-content: space-evenly;
         text-align: end;
-        border-bottom: 1px dotted var(--branco);
+        border-top: 1px solid var(--branco);
+        margin-top: 20px;
     }
     
     #menu ul li a{
@@ -508,7 +509,7 @@ p{
         width: 100%;
         list-style: none;
         margin: 4% 0;
-        padding: 0 5%;
+        padding: 0%;
         justify-content: space-between;
         align-content: space-between;
         flex-wrap: wrap;
@@ -607,11 +608,11 @@ p{
     }
     
     .card-logo{
-        max-width: 10%;
+        max-width: 13%;
         padding: 2%;
         transition: 0.5s ease-in-out;
         margin-bottom: 100px;
-        max-height: 15vh;
+        max-height: 18vh;
     }
     .card-logo:hover{
         cursor: pointer;
@@ -627,6 +628,7 @@ p{
     .card-project{
         border: 3px solid transparent;
         max-width: 20%;
+        min-width: 20%;
     }
     
     .card-project:hover{
@@ -638,18 +640,17 @@ p{
     
     .card-project img{
         border-radius: 7px;
-        filter: sepia(10);
     }
     
     .card-project img:hover{
         border-radius: 7px;
-        filter: sepia(0);
     }
     
     #projects__cards{
         display: flex;
         flex-direction: rows;
         justify-content: space-between;
+        overflow-x: scroll;
     }
     
     .links__fone a:hover{
