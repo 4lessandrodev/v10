@@ -117,6 +117,10 @@ p{
     background-repeat: no-repeat;
 }
 
+.services .header__desktop{
+    display: none;
+}
+
 .services__image__service{
     width: 100%;
     background-color: var(--cinza);
@@ -134,7 +138,7 @@ p{
     width: 100%;
     list-style: none;
     margin: 7% 0;
-    padding: 0 5%;
+    padding: 0%;
 }
 
 .services .icon{
@@ -340,7 +344,13 @@ p{
     display: none;
 }
 
+.services .services__article{
+    padding: 0 7%;
+}
 
+.desktop__services-on-image{
+    display: none;
+}
 
 
 
@@ -475,7 +485,7 @@ p{
     .services__image__service{
         width: 100%;
         background-color: var(--cinza);
-        margin: 47px 0 0;
+        margin: 0px 0 0;
         padding: 0;
         position: relative;
         min-height: 90vh;
@@ -524,7 +534,7 @@ p{
         flex-direction: row;
         width: 100%;
         list-style: none;
-        margin: 4% 0;
+        margin: 0.5% 0;
         padding: 0%;
         justify-content: space-between;
         align-content: space-between;
@@ -535,6 +545,8 @@ p{
         margin: 0;
     }
     
+    
+    
     .budget__link{
         display: flex;
         color: var(--branco);
@@ -543,8 +555,15 @@ p{
         font-size: 1.5rem;
         justify-content: center;
     }
+    .desktop__services-on-image{
+        display: block;
+    }
     
-    .service:hover{
+    .desktop__services-on-image .services .service{
+        background-color: rgba(255, 255, 255, 0.623);
+    }
+    
+    .desktop__services-on-image .services .service:hover{
         background-color: var(--azul);
         cursor: pointer;
         background-image: url('./../images/icons/engrenagem.png');
@@ -552,8 +571,11 @@ p{
         background-repeat: no-repeat;
         background-position: right 14px bottom 14px;
     }
+    .desktop__services-on-image .services .service p{
+        color: var(--azul);
+    }
     
-    .service:hover p{
+    .desktop__services-on-image .services .service:hover p{
         color: var(--branco);
     }
     
@@ -611,8 +633,8 @@ p{
         bottom: 3px;
         margin-bottom: 40px;
         background-image: url('./../images/banners/banner_projeto_desktop.png');
-    background-size: auto;
-    background-repeat: no-repeat;
+        background-size: auto;
+        background-repeat: no-repeat;
     }
     
     #clients-cards-desktop{
@@ -622,16 +644,16 @@ p{
     #logos-mobile{
         display: none;
     }
-
+    
     .projects__cards__article{
         display: flex;
         align-items: center;
     }
-
+    
     .arrow__card{
         padding: 0 2%;
     }
-
+    
     .arrow__card:hover{
         cursor: pointer;
     }
@@ -685,9 +707,35 @@ p{
     .links__fone a:hover{
         cursor: pointer;
     }
-
+    
     .arrow__card{
         display: block;
     }
+    
+    /* Ocultar serviço no desktop */
+    .services .services__article{
+        display: none;
+    }
+    .services .header{
+        display: none;
+    }
+    
+    .services .header__desktop{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 0;
+        background-color: var(--azul);
+    }
+    
+    .services .header__desktop .title{
+        width: 100%;
+        color: var(--branco);
+    }
+    
     
 }
