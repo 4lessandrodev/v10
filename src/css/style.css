@@ -736,6 +736,13 @@ p{
         width: 100%;
         color: var(--branco);
     }
+
+    .main__footer{
+        background-image: url('./../images/banners/footer.png');
+    }
+    .footer_address{
+        margin-bottom: 0;
+    }
     
     
 }
