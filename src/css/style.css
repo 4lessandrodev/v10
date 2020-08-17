@@ -101,6 +101,13 @@ p{
     background-image: url('../images/banners/banner-mobile.png');
 }
 
+#about .banner{
+    width: 100%;
+    background-color: var(--cinza);
+    height: 90vh;
+    background-image: url('../images/banners/quem-somos-background-mobile.png');
+}
+
 .about__background{
     width: 70%;
     position: relative;
@@ -760,11 +767,29 @@ p{
 
     #about .about__background__image{
         background-image: url('./../images/banners/engenheiros.png');
+        width: 190%;
+        position: relative;
+        left: -105%;
+        height: 60vh;
+        background-color: var(--cinza);
+        background-size: cover;
+        background-repeat: no-repeat;
+        top: 12%;
     }
 
     #about .about__focus p{
         margin: 0;
         padding: 0;
+    }
+
+    #about .about__background{
+            width: 70%;
+            position: relative;
+            right: -75%;
+            background-color: var(--azul);
+            height: 77vh;
+        }
+
     }
 
 }
