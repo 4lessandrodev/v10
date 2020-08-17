@@ -758,4 +758,13 @@ p{
         background-image: url('../images/banners/quem-somos-background-desktop-1920.png');
     } 
 
+    #about .about__background__image{
+        background-image: url('./../images/banners/engenheiros.png');
+    }
+
+    #about .about__focus p{
+        margin: 0;
+        padding: 0;
+    }
+
 }
