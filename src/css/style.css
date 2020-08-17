@@ -428,7 +428,7 @@ p{
         display: flex;
         width: 80%;
         justify-content: space-evenly;
-        text-align: end;
+        text-align: center;
         border-top: 1px solid var(--branco);
         margin-top: 20px;
     }
@@ -749,4 +749,13 @@ p{
     }
     
     
+
+
+    /*
+    Página sobre Desktop
+    */
+    #about .banner{
+        background-image: url('../images/banners/quem-somos-background-desktop-1920.png');
+    } 
+
 }
