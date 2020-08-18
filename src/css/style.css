@@ -442,6 +442,14 @@ p{
     display: none;
 }
 
+#projects .section__contacts .informations .item{
+    padding: 1%;
+}
+
+#projects .section__contacts .informations a{
+color: var(--branco);
+}
+
 
 
 
@@ -931,4 +939,31 @@ p{
         background-repeat: no-repeat;
     }
     
+
+
+    /*
+    Sessão de contatos para a pagina de projetos 
+    */
+    #projects .section__contacts{
+        padding: 5%;
+        text-align: center;
+        margin-top: 5vh;
+        background-color: var(--azul);
+    }
+    
+    #projects .section__contacts .informations{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        min-width: 70%;
+        max-width: 100%;
+        color: var(--branco);
+        padding: 0;
+        justify-content: center;
+    }
+
+    #projects .section__contacts .informations .informations__phone{
+        display: flex; align-items: center;
+    }
+
 }
