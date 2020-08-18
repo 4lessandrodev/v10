@@ -87,6 +87,10 @@ p{
     padding: 0 2% 0 0;
 }
 
+.desktop-header a{
+    color: var(--preto);
+}
+
 #nav{
     position: fixed;
     z-index: 1;
@@ -196,6 +200,19 @@ p{
     letter-spacing: 12.5%;
     margin-top: 7%;
 }
+
+.title_clients{
+    display: block;
+    text-transform: uppercase;
+    width: 60%;
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--cinza);
+    font-weight: 700;
+    letter-spacing: 12.5%;
+    margin-top: 14%;
+}
+
 .underline{
     margin-top: 0;
     margin-bottom: 7%;
@@ -226,6 +243,7 @@ p{
     padding: 14% 5%;
     width: 100%;
     font-size: 1.2rem;
+    text-transform: uppercase;
 }
 .budget__mark{
     display: block;
@@ -348,6 +366,7 @@ p{
 
 .main__footer{
     text-align: center;
+    padding: 4vh 0;
 }
 
 .main__footer img{
@@ -370,6 +389,11 @@ p{
 .footer_address{
     display: flex;
     justify-content: center;
+}
+
+.footer_address p{
+    color: var(--azul);
+    font-size: 15px;
 }
 
 
@@ -414,7 +438,9 @@ p{
     margin: 0 10px;
 }
 
-
+#project__hidden_mobile{
+    display: none;
+}
 
 
 
@@ -509,6 +535,7 @@ p{
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
+        border-bottom: 14px solid var(--azul);
     }
     
     .about__article{
@@ -553,10 +580,10 @@ p{
     }
     .service {
         list-style: none;
-        margin-top: 2%;
+        margin-top: 6%;
         display: flex;
         justify-items: center;
-        width: 30%;
+        width: 49%;
         padding: 14px;
         flex-direction: column;
         border-bottom: 3px ridge var(--azul);
@@ -598,6 +625,7 @@ p{
         justify-content: space-between;
         align-content: space-between;
         flex-wrap: wrap;
+        margin: 5% 0;
     }
     
     .services__article .subtitle{
@@ -616,6 +644,9 @@ p{
     }
     .desktop__services-on-image{
         display: block;
+        width: 40%;
+        position: relative;
+        left: 28%;
     }
     
     .desktop__services-on-image .services .service{
@@ -655,7 +686,7 @@ p{
     }
     
     .map{
-        width: 50vw;
+        width: 46vw;
         border-bottom: none;
         height: 67%;
         border-radius: 14px;
@@ -866,7 +897,7 @@ p{
         padding: 5%;
         text-align: center;
     }
-
+    
     #services .section__contacts .informations{
         display: flex;
         flex-direction: row;
@@ -880,7 +911,7 @@ p{
     #services .section__contacts .informations .informations__phone{
         display: flex; align-items: center;
     }
-
+    
     #services #menu ul li a{
         color: var(--azul);
     }
@@ -888,7 +919,13 @@ p{
     #services #menu ul li a:hover{
         color: var(--branco);
     }
-
+    
+    #project__hidden_mobile{
+        display: flex;
+    }
+    #project__hidden_desktop{
+        display:none;
+    }
     
     
 }
