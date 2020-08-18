@@ -108,6 +108,13 @@ p{
     background-image: url('../images/banners/quem-somos-background-mobile.png');
 }
 
+#services .banner{
+    width: 100%;
+    background-color: var(--cinza);
+    height: 90vh;
+    background-image: url('../images/banners/service-background-mobile.png');
+}
+
 .about__background{
     width: 70%;
     position: relative;
@@ -274,6 +281,21 @@ p{
     background-color: var(--azul);
 }
 
+#services .sevices{
+    background-color: var(--azul);
+    color: var(--branco);
+}
+
+#services .sevices h1, 
+#services .sevices h2, 
+#services .sevices h3, 
+#services .sevices p{
+    color: var(--branco);
+    padding: 0;
+}
+
+
+
 .contact .title{
     color: var(--branco);
     border-color: var(--branco);
@@ -363,8 +385,34 @@ p{
     display: none;
 }
 
+#services .imagem-servico{
+    background-color: var(--cinza);
+    min-width: 50%;
+    height: 50vh;
+    margin-bottom: 5%;
+}
 
+#services .section__contacts .informations{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 70%;
+    max-width: 100%;
+    color: var(--azul);
+    padding: 5%;
+    text-align: start;
+}
+#services .section__contacts .informations .informations__phone{
+    display: flex; align-items: center;
+}
 
+#services .section__contacts .informations .item{
+    padding: 1%;
+}
+
+#services .section__contacts .informations .item .icon{
+    margin: 0 10px;
+}
 
 
 
@@ -747,7 +795,7 @@ p{
         width: 100%;
         color: var(--branco);
     }
-
+    
     .main__footer{
         background-image: url('./../images/banners/footer.png');
     }
@@ -756,15 +804,15 @@ p{
     }
     
     
-
-
+    
+    
     /*
     Página sobre Desktop
     */
     #about .banner{
         background-image: url('../images/banners/quem-somos-background-desktop-1920.png');
     } 
-
+    
     #about .about__background__image{
         background-image: url('./../images/banners/engenheiros.png');
         width: 190%;
@@ -776,20 +824,71 @@ p{
         background-repeat: no-repeat;
         top: 12%;
     }
-
+    
     #about .about__focus p{
         margin: 0;
         padding: 0;
     }
-
+    
     #about .about__background{
-            width: 70%;
-            position: relative;
-            right: -75%;
-            background-color: var(--azul);
-            height: 77vh;
-        }
-
+        width: 70%;
+        position: relative;
+        right: -75%;
+        background-color: var(--azul);
+        height: 77vh;
+    }
+    
+    
+    /*
+    Estilo para a página de serviços Desktop
+    */
+    #services main{
+        margin-top: 3vh;
+    }
+    
+    #services .imagem-servico{
+        background-color: var(--cinza);
+        min-width: 50%;
+        height: 50vh;
+    }
+    
+    #services .service__row{
+        padding: 2%;
+    }
+    #services .banner{
+        width: 100%;
+        background-color: var(--cinza);
+        height: 90vh;
+        background-image: url('../images/banners/service-background-desktop-1920.png');
+    }
+    
+    #services .section__contacts{
+        padding: 5%;
+        text-align: center;
     }
 
+    #services .section__contacts .informations{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        min-width: 70%;
+        max-width: 100%;
+        color: var(--azul);
+        padding: 0;
+        justify-content: center;
+    }
+    #services .section__contacts .informations .informations__phone{
+        display: flex; align-items: center;
+    }
+
+    #services #menu ul li a{
+        color: var(--azul);
+    }
+    
+    #services #menu ul li a:hover{
+        color: var(--branco);
+    }
+
+    
+    
 }
