@@ -926,6 +926,9 @@ p{
     #project__hidden_desktop{
         display:none;
     }
-    
+    #services .imagem-servico{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     
 }
