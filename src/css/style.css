@@ -119,6 +119,13 @@ p{
     background-image: url('../images/banners/service-background-mobile.png');
 }
 
+#projects .banner{
+    width: 100%;
+    background-color: var(--cinza);
+    height: 90vh;
+    background-image: url('../images/banners/projetos-background-mobile.png');
+}
+
 .about__background{
     width: 70%;
     position: relative;
@@ -964,6 +971,27 @@ color: var(--branco);
 
     #projects .section__contacts .informations .informations__phone{
         display: flex; align-items: center;
+    }
+
+    #projects .banner{
+        width: 100%;
+        background-color: var(--cinza);
+        height: 90vh;
+        background-image: url('../images/banners/projetos-background-desktop-1920.png');
+    }
+
+    #projects #menu ul li a {
+        color: var(--azul);
+    }
+
+    #projects #menu ul li a:hover {
+        color: var(--branco);
+    }
+
+    #projects .card-project{
+        border: 1px solid #c5c5c5;
+        margin: 5px;
+        border-radius: 14px;
     }
 
 }
