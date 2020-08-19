@@ -445,6 +445,28 @@ p{
     margin: 0 10px;
 }
 
+#projects .section__contacts{
+    padding: 5%;
+    text-align: start;
+    margin-top: 5vh;
+    background-color: var(--azul);
+}
+
+#projects .section__contacts .informations .informations__phone{
+    display: flex; align-items: center;
+}
+
+#projects .section__contacts .informations{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 70%;
+    max-width: 100%;
+    color: var(--branco);
+    padding: 0;
+    justify-content: center;
+}
+
 #project__hidden_mobile{
     display: none;
 }
