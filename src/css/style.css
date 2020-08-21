@@ -476,7 +476,7 @@ p{
 }
 
 #projects .section__contacts .informations a{
-color: var(--branco);
+    color: var(--branco);
 }
 
 
@@ -968,8 +968,8 @@ color: var(--branco);
         background-repeat: no-repeat;
     }
     
-
-
+    
+    
     /*
     Sessão de contatos para a pagina de projetos 
     */
@@ -990,30 +990,38 @@ color: var(--branco);
         padding: 0;
         justify-content: center;
     }
-
+    
     #projects .section__contacts .informations .informations__phone{
         display: flex; align-items: center;
     }
-
+    
     #projects .banner{
         width: 100%;
         background-color: var(--cinza);
         height: 90vh;
         background-image: url('../images/banners/projetos-background-desktop-1920.png');
     }
-
+    
     #projects #menu ul li a {
         color: var(--azul);
     }
-
+    
     #projects #menu ul li a:hover {
         color: var(--branco);
     }
-
+    
     #projects .card-project{
         border: 1px solid #c5c5c5;
         margin: 5px;
         border-radius: 14px;
     }
-
+    
+    #projects .slide{
+        width: 82%; height: 50vh; margin: 0 0 0 17%; max-width: 82%; padding: 0; background-size: cover;
+    }
+    
+    #projects .carousel-item img{
+        width: 82%; height: 50vh; max-width: 82%; padding: 0; background-size: cover;
+    }
+    
 }
