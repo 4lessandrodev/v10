@@ -421,6 +421,7 @@ p{
     min-width: 50%;
     height: 50vh;
     margin-bottom: 5%;
+    background-size: cover;
 }
 
 #services .section__contacts .informations{
