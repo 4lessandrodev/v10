@@ -479,6 +479,12 @@ p{
     color: var(--branco);
 }
 
+#projects #project_title{
+    padding: 5%;
+}
+
+
+
 
 
 
@@ -1037,6 +1043,10 @@ p{
     
     #projects .paragrafo__sem_espaco{
         margin: 0; padding: 0;
+    }
+
+    #projects #project_title{
+        padding: 0;
     }
 
 }
