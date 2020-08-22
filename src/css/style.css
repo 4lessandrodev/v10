@@ -617,7 +617,7 @@ p{
     }
     .service {
         list-style: none;
-        margin-top: 6%;
+        margin-top: 3%;
         display: flex;
         justify-items: center;
         width: 49%;
@@ -662,7 +662,7 @@ p{
         justify-content: space-between;
         align-content: space-between;
         flex-wrap: wrap;
-        margin: 5% 0;
+        margin: 0;
     }
     
     .services__article .subtitle{
@@ -684,6 +684,7 @@ p{
         width: 40%;
         position: relative;
         left: 28%;
+        padding: 2% 0;
     }
     
     .desktop__services-on-image .services .service{
@@ -1014,6 +1015,8 @@ p{
         border: 1px solid #c5c5c5;
         margin: 5px;
         border-radius: 14px;
+        width: 25%;
+        min-width: 25%;
     }
     
     #projects .slide{
@@ -1023,5 +1026,17 @@ p{
     #projects .carousel-item img{
         width: 82%; height: 50vh; max-width: 82%; padding: 0; background-size: cover;
     }
+
+    #projects .about_project{
+        margin-bottom: 7%; max-width: 100%;
+    }
     
+    #projects .about_project .texts_about{
+        width: 82%; height: 100%; margin: 0 17% 0 0; max-width: 82%; padding: 0;
+    }
+    
+    #projects .paragrafo__sem_espaco{
+        margin: 0; padding: 0;
+    }
+
 }
