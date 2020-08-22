@@ -484,6 +484,14 @@ p{
     padding: 5%;
 }
 
+#services .service__row{
+    display: flex;
+}
+
+#services .reverse_col{
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 
 
@@ -1048,6 +1056,11 @@ p{
 
     #projects #project_title{
         padding: 0;
+    }
+
+    #services .reverse_col{
+        display: flex;
+        flex-direction: row;
     }
 
 }
