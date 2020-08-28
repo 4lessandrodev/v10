@@ -214,7 +214,7 @@ p{
     display: flex;
     justify-items: center;
     width: 100%;
-    padding-bottom: 5%;
+    padding-bottom: 5px;
 }
 
 #projects__cards{
