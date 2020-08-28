@@ -168,6 +168,18 @@ p{
     background-repeat: no-repeat;
 }
 
+#about .about__background__image{
+    width: 142%;
+    position: relative;
+    left: 20%;
+    height: 70vh;
+    background-color: var(--cinza);
+    top: 5vh;
+    background-image: url('./../images/banners/quemsomos.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .services .header__desktop{
     display: none;
 }
@@ -1040,7 +1052,7 @@ p{
     } 
     
     #about .about__background__image{
-        background-image: url('./../images/banners/engenheiros.png');
+        background-image: url('./../images/banners/quemsomos.png');
         width: 190%;
         position: relative;
         left: -105%;
