@@ -125,6 +125,8 @@ p{
     background-color: var(--cinza);
     height: 90vh;
     background-image: url('../images/banners/banner-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #about .banner{
@@ -190,9 +192,10 @@ p{
     margin: 47px 0 0;
     padding: 0;
     position: relative;
-    min-height: 90vh;
+    min-height: 70vh;
     background-image: url('../images/banners/service-background-mobile.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .services{
@@ -301,7 +304,7 @@ p{
     display: -ms-flexbox;
     display: flex;
     color: var(--branco);
-    padding: 14% 5%;
+    padding: 14% 2%;
     width: 100%;
     font-size: 1.5rem;
     text-transform: uppercase;
