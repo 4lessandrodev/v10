@@ -105,7 +105,7 @@ function atribuirValoresNoHTML(project) {
         </div>`;
         }
     });
-   
+    window.scrollTo({ top: 700, behavior: 'smooth' });
     CAROUSEL.innerHTML = imagesToHTML;
 }
 
