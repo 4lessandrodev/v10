@@ -4,6 +4,7 @@ const ARTICLE_ABOUT = document.querySelector('.about__article__background');
 const IMG_SERVICE = document.querySelector('.services__image__service');
 const TITLE_ORCAMENTO = document.querySelector('.budget__link');
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.set(TOP_BANNER, {opacity: 0});
@@ -36,3 +37,7 @@ gsap.to(TITLE_ORCAMENTO, {
         start:"top 75%"
     }
 }); 
+
+
+
+
