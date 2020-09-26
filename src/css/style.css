@@ -622,7 +622,9 @@ p{
 }
 
 
-
+.texts__about{
+    margin-top: 4vh;
+}
 
 
 
@@ -634,6 +636,11 @@ p{
 /* AQUI INICIA O CSS PARA DESKTOP */
 
 @media (min-width: 992px) { 
+
+    .texts__about{
+        margin-top: 0;
+    }
+    
     
     .row{
         margin-right: -15px;
