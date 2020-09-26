@@ -617,7 +617,9 @@ p{
     margin-left: 0px;
 }
 
-
+#projects .paragrafo__sem_espaco{
+    margin: 0 0 2vh 0; padding: 0;
+}
 
 
 
@@ -1035,7 +1037,7 @@ p{
         border-radius: 7px;
     }
     
-    #projects__cards{
+    .projects__cards{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1047,6 +1049,8 @@ p{
         -ms-flex-pack: justify;
         justify-content: space-between;
         overflow-x: hidden;
+        justify-content: space-around;
+        min-width: 85%;
     }
     
     .links__fone a:hover{
