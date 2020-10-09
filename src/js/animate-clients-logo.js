@@ -3,7 +3,6 @@ let position_logo_clients_direita = true;
 
 if (innerWidth >= 990) {
  setInterval(() => {
-     console.log('Ping...')
      position_logo_clients_direita = !position_logo_clients_direita;
      if (position_logo_clients_direita) {
          CARDS_LOGO_CLIENTES.scroll({
