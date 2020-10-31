@@ -1129,7 +1129,7 @@ p{
     
     #about .about__background__image{
         background-image: url('./../images/banners/quemsomos.png');
-        width: 190%;
+        width: 130%;
         position: relative;
         left: -105%;
         height: 60vh;
