@@ -44,6 +44,24 @@ p{
     width: 120px;
 }
 
+#galery .galery-image img{
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+}
+
+#galery .galery-image img:hover{
+    -webkit-box-shadow: 1px 1px 15px 4px rgba(0,0,0,0.37); 
+    box-shadow: 1px 1px 15px 4px rgba(0,0,0,0.37);
+    cursor: pointer;
+}
+
+#galery .galery-title{
+    padding: 5% 0;
+    text-align: center;
+}
+
 .top-mobile{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -636,11 +654,11 @@ p{
 /* AQUI INICIA O CSS PARA DESKTOP */
 
 @media (min-width: 992px) { 
-
+    
     #projects__cards{
         display: flex;
     }
-
+    
     .texts__about{
         margin-top: 0;
     }
