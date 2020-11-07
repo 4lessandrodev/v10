@@ -154,7 +154,7 @@
                         <li class="service"><image class="icon" xlink:href="" src="./src/images/icons/square-regular.svg"></image> <p><strong>Projetos e Laudos técnicos</strong></p></li>
                         
                         <li class="service"><image class="icon" xlink:href="" src="./src/images/icons/square-regular.svg"></image> <p><strong>Eficiência Energética Industrial</strong></p></li>
-                                               
+                        
                     </ul>
                 </div>
             </div>
@@ -594,7 +594,7 @@
                             <div class="card card-logo">
                                 <img src="./src/images/logos/06natura.png" class="card-img-top" alt="Logo Atacadão">
                             </div>
-
+                            
                             <div class="card card-logo">
                                 <img src="./src/images/logos/11forca-aerea.png" class="card-img-top" alt="Logo Receita Federal">
                             </div>
@@ -607,7 +607,7 @@
                             <div class="card card-logo">
                                 <img src="./src/images/logos/08hileia.png" class="card-img-top" alt="Logo Receita Federal">
                             </div>
-
+                            
                             <div class="card card-logo">
                                 <img src="./src/images/logos/07receita_federal.png" class="card-img-top" alt="Logo Atacadão">
                             </div>
@@ -625,30 +625,32 @@
                     <div class="contact__form_and_map">
                         <article class="container article__contact">
                             <div>
-                                <form action="" method="POST">
+                                <form action="/mail.php" method="POST">
                                     <div class="form-group">
                                         <label for="name" hidden>Nome</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Nome">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="email" hidden>Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="phone" hidden>Telefone</label>
-                                        <input type="tel" class="form-control" id="phone" placeholder="Telefone">
+                                        <input type="tel" name="phone" class="form-control" id="phone" placeholder="Telefone" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="subject" hidden>Assunto</label>
-                                        <input type="text" class="form-control" id="subject" placeholder="Assunto">
+                                        <input type="text" name="subject" class="form-control" id="subject" placeholder="Assunto" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="message" hidden>Sua mensagem</label>
-                                        <textarea class="form-control" id="message" rows="4" placeholder="Mensagem"></textarea>
+                                        <textarea name="message" class="form-control" id="message" rows="4" placeholder="Mensagem" required></textarea>
                                     </div>
                                     <input type="submit" class="btn btn-light" value="Enviar"></input>
                                 </form>
+                               
                             </div>
+                            
                             <div class="info">
                                 <div>
                                     <div class="links__fone">
