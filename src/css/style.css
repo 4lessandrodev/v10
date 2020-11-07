@@ -177,31 +177,33 @@ p{
     position: relative;
     right: 10%;
     background-color: var(--azul);
-    height: 80vh;
+    height: 44vh;
 }
 
 .about__background__image{
     width: 142%;
     position: relative;
     left: 20%;
-    height: 70vh;
+    height: 70%;
     background-color: var(--cinza);
     top: 5vh;
     background-image: url('./../images/banners/engenheiros.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #about .about__background__image{
     width: 142%;
     position: relative;
     left: 20%;
-    height: 70vh;
+    height: 70%;
     background-color: var(--cinza);
     top: 5vh;
     background-image: url('./../images/banners/quemsomos.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: right;
+    
 }
 
 .services .header__desktop{
@@ -516,6 +518,16 @@ p{
     height: 50vh;
     margin-bottom: 5%;
     background-size: cover;
+    background-position-x: center;
+}
+
+#services .imagem-servico-right{
+    background-color: var(--cinza);
+    min-width: 50%;
+    height: 50vh;
+    margin-bottom: 5%;
+    background-size: cover;
+    background-position-x: right;
 }
 
 #services .section__contacts .informations{
@@ -623,6 +635,7 @@ p{
 .about__article__background{
     width: 100%;
     overflow: hidden;
+    margin-bottom: 5%;
 }
 
 #projects .about_project{
@@ -776,22 +789,13 @@ p{
         border-bottom: 14px solid var(--azul);
     }
     
-    .about__article{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-    }
     
     .about__article__text{
-        width: 50%;
+        width: 100%;
     }
     
     .about__article__background{
-        width: 40%;
+        width: 100%;
     }
     
     .about__background{
@@ -1150,7 +1154,7 @@ p{
         width: 130%;
         position: relative;
         left: -105%;
-        height: 60vh;
+        height: 80%;
         background-color: var(--cinza);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1243,6 +1247,7 @@ p{
     #services .imagem-servico{
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
     }
     
     
