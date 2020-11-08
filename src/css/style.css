@@ -559,6 +559,11 @@ p{
     margin: 0 10px;
 }
 
+.icon-png{
+    width: 50px;
+    padding:0px !important;
+}
+
 #projects .section__contacts{
     padding: 5%;
     text-align: start;

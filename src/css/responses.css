@@ -1,23 +1,45 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .background-error-page{
- background-color: rgb(214, 203, 182);
-}
-
-.background-success-page{
- background-color: rgb(28, 30, 41);
-}
-
-.image-on-center{
- display: flex; justify-content: center; align-items: center; justify-items: center; align-items: center; height: 80vh;
-}
-
-.back-to-site-black{
- font-size: 2rem; color: rgb(36, 34, 34);
-}
-
-.back-to-site-white{
- font-size: 2rem; color: white;
-}
-
-.center-text{
- text-align: center;
-}
+    background-color: rgb(214, 203, 182);
+   }
+   
+   .background-success-page{
+    background-color: rgb(28, 30, 41);
+   }
+   
+   .image-on-center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-pack: 
+    center; 
+        -ms-flex-pack: 
+    center; 
+            justify-content: 
+    center; -webkit-box-align: 
+    center; -ms-flex-align: 
+    center; align-items: 
+    center; justify-items: center; 
+    align-items: center; 
+    height: 80vh;
+    max-height: 80vh;
+    max-width: 100vw;
+   }
+   
+   .back-to-site-black{
+    font-size: 2rem; color: rgb(36, 34, 34);
+   }
+   
+   .back-to-site-white{
+    font-size: 2rem; color: white;
+   }
+   
+   .center-text{
+    text-align: center;
+   }
