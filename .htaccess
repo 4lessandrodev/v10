@@ -1,34 +1,8 @@
-AddHandler php73-script .phpsuPHP_ConfigPath /home/v10engenharia/public_html
-ENV:HTTPS
-<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
+##### LOCAWEB - NAO REMOVER #####
+AddHandler php7-script .php
+suPHP_ConfigPath /home/v10engenharia/
+##### LOCAWEB - NAO REMOVER #####
 
-Header set Cache-Control "max-age=2592000"
-
-</FilesMatch>
-
-<FilesMatch ".(pl|php|cgi|spl|scgi|fcgi)$">
-
-Header unset Cache-Control
-
-</FilesMatch>
-
-<IfModule mod_gzip.c>
-mod_gzip_on Yes
-mod_gzip_dechunk Yes
-mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
-mod_gzip_item_include handler ^cgi-script$
-mod_gzip_item_include mime ^text\.*
-mod_gzip_item_include mime ^application/x-javascript.*
-mod_gzip_item_exclude mime ^image\.*
-mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
-</IfModule>
-
-<IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{ENV:HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://v10engenharia.com.br/$1 [R,L]
-</IfModule>
+RewriteRule ^(.*)$ https://www.v10engenharia.com.br/$1 [R,L]

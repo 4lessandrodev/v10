@@ -22,8 +22,8 @@ $mail->SMTPOptions = array(
   $mail->isSMTP();
   $mail->Host = 'smtp.domain.com.br';
   $mail->SMTPAuth = true;
-  $mail->Username = 'servidor@domain.com.br';
-  $mail->Password = 'passs****';
+  $mail->Username = 'server@domain.com.br';
+  $mail->Password = 'pass';
   $mail->SMTPAutoTLS = false;
   $mail->Port = 587;
   $mail->CharSet = 'UTF-8';
@@ -34,9 +34,9 @@ $mail->SMTPOptions = array(
   $email = $_POST["email"];
   $phone = $_POST["phone"];
   
-  $mail->setFrom('servidor@domain.com.br', 'Site');
+  $mail->setFrom('server@domain.com.br', 'Site');
   $mail->addCC($email, $nome);
-  $mail->addAddress('destin@domain.com.br', 'Vitor');
+  $mail->addAddress('user@domain.com.br', 'User');
   $mail->addReplyTo($email, $nome);
   
   $mail->isHTML(true);
@@ -45,10 +45,10 @@ $mail->SMTPOptions = array(
   $mail->AltBody = $mensagem;
   
   if($mail->send()) {
-   echo '200';
+   require_once('success.html');
   } else {
-   echo '400';
+   require_once('not-found.html');
   } 
  } catch (Exception $e) {
-  var_dump($e);
+  require_once('not-found.html');
  };
